@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.body{
+    /* overflow-x: hidden; */
+}
+.container{
+    padding: 2vmax 3vmax;
+    width: 100vmax;
+    height: 100vmin;
+    background-color: #FEDC32;
+    font-family: helvetica;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.navl-icon{
+    display: flex;
+    align-items: center;
+}
+
+.navr-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vmax;
+}
+.navr-text h1{
+    font: 600 2vmax "helvetica";
+}
+.navr-text p{
+    font: 900 0.8vmax "helvetica";
+}
+.nav-right ul{
+    list-style: none;
+    display: flex;
+   
+}
+.nav-right ul li{
+    padding-left: 4vmax;
+    font: 600 1vmax "Calibri";
+}
+/* ------------------nav end------------ */
+
+/* --------section1 start -------------- */
+.section1{
+    margin-top: 3vmax;
+    width: 100%;
+    height: 30vh;
+    background-image: url(pencil1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* background-color: white; */
+}
+/* ---------section1 end---------------- */
+/*---------- section2 start------------- */
+.section2{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    /* background-color: red; */
+}
+.filler{
+    width: 30%;
+    height: 100%;
+    /* background-color: white; */
+}
+.s2-right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    /* background-color: gray; */
+}
+.s2r-blank{
+    margin-right: 2vmax;
+    width: 40%;
+    height: 50%;
+    /* border: 2px solid gray; */
+    /* clip-path: polygon(0 0, 100% 100%, 100% 0); */
+    /* background-color: red; */
+}
+.s2r-content{
+    width: 60%;
+    height: 100%;
+    /* background-color: green; */
+}
+.s2r-content h1{
+    margin-bottom: 1vmax;
+    font: 600 2.8vmax "helvetica";
+}
+.s2r-content p{
+    font: 400 1vmax "Montserrat";
+}
+
+
+
+.s2r-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width:10%;
+    height: 100%;
+    /* background-color: coral; */
+}
+.s2r-icon i{
+    font-size: 1.2vmax;
+}
+
+
+
+
+
+/* ---------section2 end------------- */
